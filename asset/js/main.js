@@ -38,7 +38,7 @@ for ( let key in team ){
 //stampo a video card membri usando card di bootstrap
 for ( let i = 0; i < team.length;i++ ){
     document.getElementById("target").innerHTML += 
-        `<div class="card" style="width: 18rem;">
+        `<div class="card zoom animation margin-10" style="width: 18rem;">
             <img src="./img/${team[i]["img"]}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title">${team[i]["name"]}</h4>
